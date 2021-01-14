@@ -1,2 +1,9 @@
-include ':app'
-rootProject.name = "block-dispatcher"
+include ':modular-dispatcher-processor'
+include ':modular-dispatcher-annotations'
+include ':modular-dispatcher-service-manager'
+include ':sample-framework-base'
+include ':modular-dispatcher-core'
+include ':sample-module-user'
+include ':sample-module-share'
+include ':sample-module-main'
+rootProject.name = "modular-dispatcher"
